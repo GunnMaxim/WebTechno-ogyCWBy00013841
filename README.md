@@ -1,4 +1,13 @@
 This is a Course Work for Web Technology module made by student 00013841
+
+The purpose of this project was to try to clone the original website of the Uzbek company Home Spot.
+This compony was chosen as a target one, because of personal experience and preferences while working there.
+“This website was created to fulfill Web Technology
+module’s requirements and does not represent an actual company or service”.
+
+
+
+
 github repository: https://github.com/GunnMaxim/WebTechnologyCWBy00013841
 the site is hosted on GitHub  https://gunnmaxim.github.io/WebTechnologyCWBy00013841/ 
 the original site is https://www.homespot.uz/
