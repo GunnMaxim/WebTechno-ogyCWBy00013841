@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homespot - News</title>
+	<link rel="stylesheet" type="text/css" href="./styles/main.css"> <!--CSS link -->
+</head>
+<body>
+<header>   <!--Header -->
+	<!--the logo of company -->
+	<img class=HS_logo src="./images/homespot-logo.eafc546.png">   
+	<dif class=phone><img class=Phone_icon src="./images/phone_icon.png"><a class=phone_info>+998(90)***-**-**<br>
+	PLEASE CALL MD- SD 8:30 - 6:00</a></dif>
+	<dif class=mail><img class=mail_icon src="./images/Mail_icon.png"><a class=mail_info> INFO@HOMESPOT.UZ<br>
+CHAIN ​​STORE HYPERMARKETS</a>
+<dif class="registration"><a href="registration.html">Registeration</a></dif></dif>
+</header>
+<!--the searchbar , not working. but i has it :) -->
+<div class="container"> 
+	<form class="searchbar">
+		<input type="text" placeholder="Search...."  name="q"> <button type="submit"><img src="./images/search.png"></button>
+	</form>
+	<a href="index.html" class="Home"><img src="./images/home_icon.png">HOME</a>
+	<a href="shop.html" class="Shop">SHOP</a>
+	<a href="newsMenu.html" class="News">NEWS</a>
+		<!-- it is an accordion! -->
+	<div class="About"><p href="" >ABOUT US ↓</p><div  class="accordion"><ul><a href="about.html">For Providers</a><br><br>
+		<a href="about.html">Types of Payment</a><br><br>
+		<a href="about.html">Dekivery Terms</a></ul></div>
+
+</div></div>
+	<!-- always wanted to do smth like this. it a scroll of images with buttons -->
+<div class="main-scroll">
+	<div> <button class="icon_left" onclick="scrollr()"><</button></div>
+	<div class="cover">
+		<div class="scroll-images">
+			<div class="child"><img class="child-img" src="images/Furneture1.png"></div>
+			<div class="child"><img class="child-img" src="images/Furneture2.png"></div>
+			<div class="child"><img class="child-img" src="images/Furneture3.png"></div>
+		</div>
+	</div>
+	<div> <button class="icon_right" onclick="scrolll()">> </button></div>
+</div>
+	<!-- i have seen it on the official site . wanted to add this too -->
+<div class="zooming-images">
+	<div class="child-zoom"><img class="child-zoom-img" src="images/Zoom1.png"></div>
+	<div class="child-zoom"><img class="child-zoom-img" src="images/Zoom2.png"></div>
+	<div class="child-zoom"><img class="child-zoom-img" src="images/Zoom3.png"></div>
+	<div class="child-zoom"><img class="child-zoom-img" src="images/Zoom4.png"></div>
+
+</div>
+<!-- just a footer -->
+<footer>
+	<div class="row1">
+	<img src="./images/homespot-logo-footer.png">
+	<p>Kolberg Production: Construction hypermarkets of the new network Home
+Spot (wholesale and retail sale of goods for construction and
+Housing)</p>
+	</div>
+	<div class="row2">
+		<h3>Usefull links</h3>
+		<a href="index.html">Home</a><br><br>
+		<a href="shop.html">Shop</a><br><br>
+		<a href="news.html" >News</a><br><br>
+		<a href="">About Us</a><br><br>
+		<a href="#">Saved</a>
+
+
+	</div>
+	<div class="row3">
+		<h3>Store Locations</h3>
+		<p>Uzbekistan. Tashkent city, Sergeli district, TKAD street house-53</p><br>
+		<p>Uzbekistan. Karshi city, MSG TUKMANGIT</p>
+
+	</div>
+	<div class="row4">
+		<h3>Our Social Media</h3>
+		<a href="#"><img src="./images/FaceBookIcon.png" ></a>
+		<a href="#"><img src="./images/TwitterIcon.png" ></a>
+		<a href="#"><img src="./images/TelegramIcon.png" ></a>
+		<a href="#"><img  src="./images/InstagramIcon.png"></a>
+		
+	</div>
+</footer>
+</body>
+<!-- scripts for scroll and accordion-->
+<script type="text/javascript">
+	function scrolll() {
+		var left=document.querySelector(".scroll-images");
+		left.scrollBy(850, 0)
+	}
+	function scrollr() {
+		var right=document.querySelector(".scroll-images");
+		right.scrollBy(-850, 0)
+	}
+
+	const About = document.getElementsByClassName('About');
+	const accordion = document.getElementsByClassName('accordion');
+
+	for (i = 0; i<About.length; i++){
+		About[i].addEventListener('click',function(){
+			this.classList.toggle('active')
+		})
+	}
+
+</script>
+
+</html>

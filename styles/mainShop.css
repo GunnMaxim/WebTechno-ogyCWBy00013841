@@ -1,0 +1,361 @@
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+	    background:#eee;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Phone_icon {width: 50px;
+height: 50px}
+
+html{font-family: arial;}
+.phone{
+	position: absolute;
+	width: 290px;
+	height: 80px;
+	padding-left: 50px;
+	font-size: 10;
+
+}
+header {align-items: center;
+margin-top: 10px;
+font-size: 12px;
+margin-bottom: 5px;
+padding-left: 20%}
+
+.registration {
+	position: absolute;
+	margin-left: 10%;
+	margin-top: -10px;
+	text-decoration: none;
+	color: black;
+}
+.registration a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px
+}
+.registration:hover {
+	color: orange;
+}
+
+
+.mail{position: absolute;
+margin-left: 300px;
+width: 290px
+height:80px;}
+.mail_icon{width: 50px;
+height: 50px;}
+
+body .container {
+	display: block;
+	box-sizing: inherit;
+	width: 100%;
+	min-height: 50px;
+	padding-left: 20%;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+
+}
+.searchbar {
+	width: 100%;
+	height: 25px;
+	max-width: 230px;
+	display: flex;
+	align-items: center;
+	border-radius: 30px;
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+}
+
+.searchbar input {
+	background: transparent;
+	flex: 1;
+	border:0;
+	outline: none;
+	padding: 24px, 20px;
+	font-size: 12px;
+	color: #cac7ff;
+}
+::placeholder{
+	color: #cac7ff;
+}
+.searchbar button img{
+	width: 25px;
+}
+.searchbar button {
+	border: 0;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	cursor:pointer;
+	background: grey;
+}
+.container .Home {
+	display: flex;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: -62px;
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+	padding-top: 25px;
+	
+
+}
+.container .Home:hover {
+	border-top: 2px solid orange;
+	transition: 0.2s;
+	color: orange;}
+
+
+.container .Home img {
+	width: 25px;
+	margin-top: -5px;
+	margin-right: 5px;
+
+
+}
+.container .Shop {
+	display: flex;
+	position: absolute;
+	margin-left: 450px;
+	margin-top: -62px;
+	padding-top: 25px;
+	text-decoration: none;
+	font-size: 14px;
+	border-top: 2px solid orange;
+	color: orange;
+}
+
+.container .News {
+	display: flex;
+	position: absolute;
+	margin-left: 520px;
+	margin-top: -62px;
+	padding-top: 25px;
+	text-decoration: none;
+	font-size: 14px;
+	color: black;}
+.container .News:hover {
+	border-top: 2px solid orange;
+	transition: 0.2s;
+	color: orange;}
+
+.container .About {
+	display: flex;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: -62px;
+	padding-top: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+	cursor: pointer;
+}
+.container .About:hover {
+	border-top: 2px solid orange;
+	transition: 0.2s;
+	color: orange;
+}
+
+
+.About .accordion {
+	position: absolute;
+	
+	z-index: 1;
+	background: #eee;
+
+	width: 200px;
+	height: 200px;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	
+}
+.accordion a {
+	max-height: 0;
+	text-decoration: none;
+	color: black;
+
+}
+
+.About.active .accordion {
+	position: absolute;
+	margin-top: 60px;
+	z-index: 10;
+	background: #eee;
+
+	width: 150px;
+	height: 200px;
+	align-items: center;
+	justify-content: center;
+	display: block;
+	border: 1px solid grey;
+	
+}
+.About.active .accordion p{
+	padding: 5px 10px;
+	justify-content: space-between;
+	cursor: pointer;
+}
+a:hover {
+	color: orange;
+
+}
+
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border:.2rem solid black;
+    color: black;
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: orange;
+    color:#fff;
+    border:.2rem solid #fff;
+}
+
+
+.products .product-slider{
+    padding:1rem;
+   	border: 1px solid grey;
+   	border-radius: 15px;
+ 	
+    margin-top:10px;
+
+
+}
+
+.products .product-slider:first-child{
+    margin-bottom: 2rem;
+}
+
+.products .product-slider .box{
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding:3rem 2rem;
+    outline-offset: -1rem;
+    outline: outline;
+    
+    transition: .2s linear;
+    border: 1px solid grey;
+    height: auto;
+    margin-bottom:10px;
+    position: relative;
+    justify-content: left;
+}
+
+.products .product-slider .box:hover{
+    outline-offset: 1rem;
+    outline: yellow;
+    border: 2px solid yellow;
+}
+
+.products .product-slider .box img{
+    height:15rem;
+}
+
+.products .product-slider .box h3{
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.products .product-slider .box .price{
+    font-size: 1.5rem;
+    color: red;
+    padding:.5rem 0;
+}
+
+.products .product-slider .box .stars i{
+    font-size: 1.7rem;
+    color: orange;
+    padding:.5rem 0;
+}
+
+
+
+footer{
+	margin-top: 30px;
+	font-size: 14px;
+	color: white;
+	background: rgb(62 62 62);
+	height: 300px;
+	width: 100%
+}
+footer a {
+	text-decoration: underline;
+	color: white;
+}
+.row1 {
+	padding: 10px;
+	position: absolute;
+	width: 25%;
+	height: auto;
+}
+.row2 {
+	padding: 25px;
+	position: absolute;
+	width: 20%;
+	height: auto;
+	margin-left: 30%;
+}
+
+.row3 {
+	padding: 25px;
+	position: absolute;
+	width: 20%
+	height: auto;
+	margin-left: 40%;
+}
+
+.row4 img {
+	width: 25px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.row4 {
+	position: absolute;
+	margin-left: 75%;
+	padding-top: 25px;
+}
+
+.row4 img:hover {
+	background-color: orange;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homespot - News</title>
+	<link rel="stylesheet" type="text/css" href="./styles/mainNewsMenu.css">
+</head>
+<body>
+<header>   <!--Header -->
+	<!--the logo of company -->
+	<img class=HS_logo src="./images/homespot-logo.eafc546.png">   
+	<dif class=phone><img class=Phone_icon src="./images/phone_icon.png"><a class=phone_info>+998(90)***-**-**<br>
+	PLEASE CALL MD- SD 8:30 - 6:00</a></dif>
+	<dif class=mail><img class=mail_icon src="./images/Mail_icon.png"><a class=mail_info> INFO@HOMESPOT.UZ<br>
+CHAIN ​​STORE HYPERMARKETS</a>
+<dif class="registration"><a href="registration.html">Registeration</a></dif></dif>
+</header>
+<!--the searchbar , not working. but i has it :) -->
+<div class="container"> 
+	<form class="searchbar">
+		<input type="text" placeholder="Search...."  name="q"> <button type="submit"><img src="./images/search.png"></button>
+	</form>
+	<a href="index.html" class="Home"><img src="./images/home_icon.png">HOME</a>
+	<a href="shop.html" class="Shop">SHOP</a>
+	<a href="newsMenu.html" class="News">NEWS</a>
+		<!-- it is an accordion! -->
+	<div class="About"><p href="" >ABOUT US ↓</p><div  class="accordion"><ul><a href="about.html">For Providers</a><br><br>
+		<a href="about.html">Types of Payment</a><br><br>
+		<a href="about.html">Dekivery Terms</a></ul></div>
+
+</div></div>  
+<!-- a news menu. it would contain all news -->
+<div class="mainPage">
+<div class="news1">
+	
+	 <div class="container2">
+      <img src="./images/news/news.png" alt="" />
+      <figcaption>
+        
+        <a href="news.html"><h3>Continue Reading</h3></a>
+      </figcaption>
+     
+    </div>
+	
+	<div class="text">
+		<h2>“HOME SPOT” CONSTRUCTION HYPERMARKET In
+Tashkent and Uzbekistan</h2>
+		<p class="info">26.10.2022</p>
+
+		<p>Home Spot is the first construction hypermarket in Uzbekistan. This shopping center is located
+in the city of Karshi, offers its visitors a wide range of building materials,
+tools and household goods. The hypermarket is operated by Kolberg Group.....</p>
+<div class="button1"><a class="button1" href="news.html">Continue Reading</a>
+</div></div>
+</div>
+
+<div class="new2">
+	
+	 <div class="container2">
+      <img src="./images/news/news.png" alt="" />
+      <figcaption>
+        
+        <a href="news.html"><h3>Continue Reading</h3></a>
+      </figcaption>
+     
+    </div>
+	
+	<div class="text">
+		<h2>“HOME SPOT” CONSTRUCTION HYPERMARKET In
+Tashkent and Uzbekistan</h2>
+		<p class="info">26.10.2022</p>
+
+		<p>Home Spot is the first construction hypermarket in Uzbekistan. This shopping center is located
+in the city of Karshi, offers its visitors a wide range of building materials,
+tools and household goods. The hypermarket is operated by Kolberg Group.....</p>
+<div class="button1"><a class="button1" href="news.html">Continue Reading</a>
+</div></div>
+</div>
+
+</div>
+<footer>
+	<div class="row1">
+	<img src="./images/homespot-logo-footer.png">
+	<p>Kolberg Production: Construction hypermarkets of the new network Home
+Spot (wholesale and retail sale of goods for construction and
+Housing)</p>
+	</div>
+	<div class="row2">
+		<h3>Usefull links</h3>
+		<a href="index.html">Home</a><br><br>
+		<a href="shop.html">Shop</a><br><br>
+		<a href="news.html" >News</a><br><br>
+		<a href="">About Us</a><br><br>
+		<a href="#">Saved</a>
+
+
+	</div>
+	<div class="row3">
+		<h3>Store Locations</h3>
+		<p>Uzbekistan. Tashkent city, Sergeli district, TKAD street house-53</p><br>
+		<p>Uzbekistan. Karshi city, MSG TUKMANGIT</p>
+
+	</div>
+	<div class="row4">
+		<h3>Our Social Media</h3>
+		<a href="#"><img src="./images/FaceBookIcon.png" ></a>
+		<a href="#"><img src="./images/TwitterIcon.png" ></a>
+		<a href="#"><img src="./images/TelegramIcon.png" ></a>
+		<a href="#"><img  src="./images/InstagramIcon.png"></a>
+		
+	</div>
+</footer>
+</body>
+<!-- script for accordion  -->
+<script type="text/javascript">
+
+	const About = document.getElementsByClassName('About');
+	const accordion = document.getElementsByClassName('accordion');
+
+	for (i = 0; i<About.length; i++){
+		About[i].addEventListener('click',function(){
+			this.classList.toggle('active')
+		})
+	}
+
+</script>
+</html>

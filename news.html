@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homespot</title>
+	<link rel="stylesheet" type="text/css" href="./styles/mainNews.css">
+</head>
+<body>
+<header>   <!--Header -->
+	<!--the logo of company -->
+	<img class=HS_logo src="./images/homespot-logo.eafc546.png">   
+	<dif class=phone><img class=Phone_icon src="./images/phone_icon.png"><a class=phone_info>+998(90)***-**-**<br>
+	PLEASE CALL MD- SD 8:30 - 6:00</a></dif>
+	<dif class=mail><img class=mail_icon src="./images/Mail_icon.png"><a class=mail_info> INFO@HOMESPOT.UZ<br>
+CHAIN ​​STORE HYPERMARKETS</a>
+<dif class="registration"><a href="registration.html">Registeration</a></dif></dif>
+</header>
+<!--the searchbar , not working. but i has it :) -->
+<div class="container"> 
+	<form class="searchbar">
+		<input type="text" placeholder="Search...."  name="q"> <button type="submit"><img src="./images/search.png"></button>
+	</form>
+	<a href="index.html" class="Home"><img src="./images/home_icon.png">HOME</a>
+	<a href="shop.html" class="Shop">SHOP</a>
+	<a href="newsMenu.html" class="News">NEWS</a>
+		<!-- it is an accordion! -->
+	<div class="About"><p href="" >ABOUT US ↓</p><div  class="accordion"><ul><a href="about.html">For Providers</a><br><br>
+		<a href="about.html">Types of Payment</a><br><br>
+		<a href="about.html">Dekivery Terms</a></ul></div>
+
+</div></div>
+
+<!-- just a regular page. i'm out of ideas but i think it should be more informative , so there should not be any distructive design, but i have seen better -->
+<div class="main">
+	<img src="./images/news/news.png">
+	<div class="text">
+		<h2>“HOME SPOT” CONSTRUCTION HYPERMARKET In
+Tashkent and Uzbekistan</h2>
+		<p class="info">26.10.2022</p>
+
+		<p>Home Spot is the first construction hypermarket in Uzbekistan. This shopping center is located
+in the city of Karshi, offers its visitors a wide range of building materials,
+tools and household goods. The hypermarket is operated by Kolberg Group.
+In total, the shopping center has 16 departments located on an area of ​​3,500 sq.m.
+On the shelves of this hypermarket you will find goods of local and foreign production, among
+which:
+building materials and tools
+plumbing equipment
+tiles, tiles and floor coverings;
+paints and fixing materials
+<br><br><br>
+Electrical goods and lighting systems
+garden supplies, etc.
+The shopping center delivers goods, you can learn more about this service on the official
+organization website.
+Contacts<br><br>
+Address:Uzbekistan KARSHI DISTRICT MSG TUKMANGIT,<br><br>
+Landmark: PETROL FILLER “UZBEKNEFTEGAZ” (UNG PETRO, FORMER UZGAZOIL) – KARSHI-2;<br><br>
+Phone: 78 1486666, 78 1477004<br><br>
+Organization website: homespot.uz</p>
+	</div>
+</div>
+
+
+
+<footer>
+	<div class="row1">
+	<img src="./images/homespot-logo-footer.png">
+	<p>Kolberg Production: Construction hypermarkets of the new network Home
+Spot (wholesale and retail sale of goods for construction and
+Housing)</p>
+	</div>
+	<div class="row2">
+		<h3>Usefull links</h3>
+		<a href="index.html">Home</a><br><br>
+		<a href="shop.html">Shop</a><br><br>
+		<a href="news.html" >News</a><br><br>
+		<a href="">About Us</a><br><br>
+		<a href="#">Saved</a>
+
+
+	</div>
+	<div class="row3">
+		<h3>Store Locations</h3>
+		<p>Uzbekistan. Tashkent city, Sergeli district, TKAD street house-53</p><br>
+		<p>Uzbekistan. Karshi city, MSG TUKMANGIT</p>
+
+	</div>
+	<div class="row4">
+		<h3>Our Social Media</h3>
+		<a href="#"><img src="./images/FaceBookIcon.png" ></a>
+		<a href="#"><img src="./images/TwitterIcon.png" ></a>
+		<a href="#"><img src="./images/TelegramIcon.png" ></a>
+		<a href="#"><img  src="./images/InstagramIcon.png"></a>
+		
+	</div>
+</footer>
+</body>
+<script type="text/javascript">
+	
+
+	const About = document.getElementsByClassName('About');
+	const accordion = document.getElementsByClassName('accordion');
+
+	for (i = 0; i<About.length; i++){
+		About[i].addEventListener('click',function(){
+			this.classList.toggle('active')
+		})
+	}
+</script>
+
+</html>

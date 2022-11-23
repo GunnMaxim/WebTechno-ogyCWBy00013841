@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homespot</title>
+	<link rel="stylesheet" type="text/css" href="./styles/mainAbout.css">
+</head>
+<body>
+<header>   <!--Header -->
+	<!--the logo of company -->
+	<img class=HS_logo src="./images/homespot-logo.eafc546.png">   
+	<dif class=phone><img class=Phone_icon src="./images/phone_icon.png"><a class=phone_info>+998(90)***-**-**<br>
+	PLEASE CALL MD- SD 8:30 - 6:00</a></dif>
+	<dif class=mail><img class=mail_icon src="./images/Mail_icon.png"><a class=mail_info> INFO@HOMESPOT.UZ<br>
+CHAIN ​​STORE HYPERMARKETS</a>
+<dif class="registration"><a href="registration.html">Registeration</a></dif></dif>
+</header>
+<!--the searchbar , not working. but i has it :) -->
+<div class="container"> 
+	<form class="searchbar">
+		<input type="text" placeholder="Search...."  name="q"> <button type="submit"><img src="./images/search.png"></button>
+	</form>
+	<a href="index.html" class="Home"><img src="./images/home_icon.png">HOME</a>
+	<a href="shop.html" class="Shop">SHOP</a>
+	<a href="newsMenu.html" class="News">NEWS</a>
+		<!-- it is an accordion! -->
+	<div class="About"><p href="" >ABOUT US ↓</p><div  class="accordion"><ul><a href="about.html">For Providers</a><br><br>
+		<a href="about.html">Types of Payment</a><br><br>
+		<a href="about.html">Dekivery Terms</a></ul></div>
+
+
+</div></div>
+<div class="main">
+<br><br><br>
+<h3>The Home spot hypermarket chain is part of the KOLBERG GROUP diversified group of companies focused on the distribution of consumer goods, the development of a network of retail stores for care and decorative cosmetics, household goods, building materials, as well as the production of hygiene products in the Uzbek market.</h3>
+<div class="text"><p>KOLBERG GROUP originates in 1998 as a private business, which, over 22 years of development in the conditions of the market economy of Uzbekistan, has not only consolidated its position, but also acquired the status of a reliable and stable enterprise, representing a whole group of companies. Our exclusive partners are more than 50 world famous brands and more than 10 manufacturing plants of near and far abroad.</p>
+<p>В состав KOLBERG GROUP входят несколько компаний </p>
+
+<p>KOLBERG GROUP includes several companies
+
+Kolberg Production: Construction hypermarket of the new Home Spot network (wholesale and retail sale of goods for construction and everything for the home)</p>
+
+<p>United Distribution: Distribution of consumer goods</p>
+
+<p>Costa trade: Bellstore - Drogerie retail chain, L'Oreal studio, The Glam Bar beauty salon</p>
+
+
+<p>Greenline Hygienic Production: Production of hygiene products </p>
+
+<p>Our mission
+The purpose of creating and expanding the network of construction hypermarkets
+Home Spot - to make our customers' dreams of comfort come true
+and the comfort of your home.
+</p>
+<p>
+We value our reputation, we fulfill our obligations
+to employees, partners and the state, thereby
+setting business standards</p>
+
+<div class="main-scroll">
+	<div> <button class="icon_left" onclick="scrollr()"><</button></div>
+	<div class="cover">
+		<div class="scroll-images">
+			<!-- i wanted to make it infinite, but i just made lots of them -->
+			<div class="child"><img class="child-img" src="images/news/About2.png"></div>
+			<div class="child"><img class="child-img" src="images/news/About3.png"></div>
+			<div class="child"><img class="child-img" src="images/news/About2.png"></div>
+			<div class="child"><img class="child-img" src="images/news/About2.png"></div>
+			<div class="child"><img class="child-img" src="images/news/About3.png"></div>
+			<div class="child"><img class="child-img" src="images/news/About2.png"></div>
+			<div class="child"><img class="child-img" src="images/news/About2.png"></div>
+			<div class="child"><img class="child-img" src="images/news/About3.png"></div>
+			<div class="child"><img class="child-img" src="images/news/About2.png"></div>
+		</div>
+	</div>
+	<div> <button class="icon_right" onclick="scrolll()">> </button></div>
+</div>
+
+
+
+</div>
+<div class="images1"><img src="./images/news/news.png">
+<img src="./images/news/About1.png">
+</div>
+</div>
+<footer>
+	<div class="row1">
+	<img src="./images/homespot-logo-footer.png">
+	<p>Kolberg Production: Construction hypermarkets of the new network Home
+Spot (wholesale and retail sale of goods for construction and
+Housing)</p>
+	</div>
+	<div class="row2">
+		<h3>Usefull links</h3>
+		<a href="index.html">Home</a><br><br>
+		<a href="shop.html">Shop</a><br><br>
+		<a href="news.html" >News</a><br><br>
+		<a href="">About Us</a><br><br>
+		<a href="#">Saved</a>
+
+
+	</div>
+	<div class="row3">
+		<h3>Store Locations</h3>
+		<p>Uzbekistan. Tashkent city, Sergeli district, TKAD street house-53</p><br>
+		<p>Uzbekistan. Karshi city, MSG TUKMANGIT</p>
+
+	</div>
+	<div class="row4">
+		<h3>Our Social Media</h3>
+		<a href="#"><img src="./images/FaceBookIcon.png" ></a>
+		<a href="#"><img src="./images/TwitterIcon.png" ></a>
+		<a href="#"><img src="./images/TelegramIcon.png" ></a>
+		<a href="#"><img  src="./images/InstagramIcon.png"></a>
+		
+	</div>
+</footer>
+</body>
+<script type="text/javascript">
+	function scrolll() {
+		var left=document.querySelector(".scroll-images");
+		left.scrollBy(850, 0)
+	}
+	function scrollr() {
+		var right=document.querySelector(".scroll-images");
+		right.scrollBy(-850, 0)
+	}
+
+	const About = document.getElementsByClassName('About');
+	const accordion = document.getElementsByClassName('accordion');
+
+	for (i = 0; i<About.length; i++){
+		About[i].addEventListener('click',function(){
+			this.classList.toggle('active')
+		})
+	}
+</script>
+
+</html>

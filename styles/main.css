@@ -1,0 +1,404 @@
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+	    background:#eee;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+
+
+
+
+
+
+
+.Phone_icon {width: 50px;
+height: 50px}
+
+html{font-family: arial;}
+.phone{
+	position: absolute;
+	width: 290px;
+	height: 80px;
+	padding-left: 50px;
+	font-size: 10;
+
+}
+header {align-items: center;
+margin-top: 10px;
+font-size: 12px;
+margin-bottom: 5px;
+padding-left: 20%}
+
+.registration {
+	position: absolute;
+	margin-left: 10%;
+	margin-top: -10px;
+	text-decoration: none;
+	color: black;
+}
+.registration a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px
+}
+.registration:hover {
+	color: orange;
+}
+
+
+.mail{position: absolute;
+margin-left: 300px;
+width: 290px
+height:80px;}
+.mail_icon{width: 50px;
+height: 50px;}
+
+body .container {
+	display: block;
+	box-sizing: inherit;
+	width: 100%;
+	min-height: 50px;
+	padding-left: 20%;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+
+}
+.searchbar {
+	width: 100%;
+	height: 25px;
+	max-width: 230px;
+	display: flex;
+	align-items: center;
+	border-radius: 30px;
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+}
+
+.searchbar input {
+	background: transparent;
+	flex: 1;
+	border:0;
+	outline: none;
+	padding: 24px, 20px;
+	font-size: 12px;
+	color: #cac7ff;
+}
+::placeholder{
+	color: #cac7ff;
+}
+.searchbar button img{
+	width: 25px;
+}
+.searchbar button:hover{
+	background-color: orange;
+}
+.searchbar button {
+	border: 0;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	cursor:pointer;
+	background: grey;
+}
+.container .Home {
+	display: flex;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: -62px;
+	text-decoration: none;
+	font-size: 14px;
+	color: orange;
+	padding-top: 25px;
+	border-top: 2px solid orange;
+
+}
+.container .Home img {
+	width: 25px;
+	margin-top: -5px;
+	margin-right: 5px;
+
+
+}
+.container .Shop {
+	display: flex;
+	position: absolute;
+	margin-left: 450px;
+	margin-top: -62px;
+	padding-top: 25px;
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+}
+.container .Shop:hover {
+	border-top: 2px solid orange;
+	transition: 0.2s;
+	color: orange;
+}
+.container .News {
+	display: flex;
+	position: absolute;
+	margin-left: 520px;
+	margin-top: -62px;
+	padding-top: 25px;
+	text-decoration: none;
+	font-size: 14px;
+	color: black;}
+.container .News:hover {
+	border-top: 2px solid orange;
+	transition: 0.2s;
+	color: orange;}
+
+.container .About {
+	display: flex;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: -62px;
+	padding-top: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+	cursor: pointer;
+}
+.container .About:hover {
+	border-top: 2px solid orange;
+	transition: 0.2s;
+	color: orange;
+}
+.main-scroll {
+width: 80%;
+height: 400px;
+display: flex;
+justify-content: space-between;
+margin-left: 100px;
+margin-top: 5px;
+
+}
+.cover {
+	position: relative;
+	width: 80%;
+	height: 50%;
+
+}
+.cover:before{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	z-index: 99;
+	height: 100%;
+	width: 150px;
+	background-image: linear-gradient (90deg, black,transparent);
+
+}
+.cover:after{
+	position: absolute;
+	content: "";
+	right: 0;
+	top: 0;
+	z-index: 99;
+	height: 100%;
+	width: 150px;
+	background-image: linear-gradient (-90deg, black,transparent);
+
+}
+.scroll-images {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	overflow: auto;
+	position: relative;
+	scroll-behavior: smooth;
+	z-index: 0;
+}
+.child {
+	min-width: 830px;
+	height: 350px;
+	margin: 1px 10px;
+	
+	border: 1px solid black;
+	overflow: hidden;
+}
+.scroll-images::-webkit-scrollbar {
+	-webkit-appearance:none;
+
+}
+.child-img {
+	
+	width: 830px;
+	height: 350px;
+
+}
+.icon_left {
+
+	color: orange;
+	background-color: #eee;
+	font-size: 50px;
+	outline: none;
+	border: none;
+	padding-top: 150px;
+	padding-left: 50px;
+
+	cursor: pointer;
+
+}
+.icon_right {
+
+	color: orange;
+	background-color: #eee;
+	font-size: 50px;
+	outline: none;
+	border: none;
+	padding-top: 150px;
+	padding-right: 50px;
+
+	cursor: pointer;
+
+}
+.icon_left:hover{
+	color: yellow;
+}
+.icon_right:hover{
+	color: yellow;
+}
+
+.zooming-images{
+	width: 70%;
+height: 110px;
+display: flex;
+justify-content: space-between;
+margin-left: 100px;
+align-items: center;
+margin-left: 150px;
+}
+
+.child-zoom-img {
+
+	width: 200px;
+	height: 90px;
+	
+	border-radius: 10px;
+	margin: 5px;
+	transition: 0.7s;
+
+}
+
+.child-zoom{
+	overflow: hidden;
+	border: 2px solid orange ;
+	border-radius: 10px;
+	height: 100px;
+}
+.child-zoom-img:hover {
+	transform: scale(1.1);
+}
+
+
+.About .accordion {
+	position: absolute;
+	
+	z-index: 5;
+	background: #eee;
+
+	width: 200px;
+	height: 200px;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	
+}
+.accordion a {
+	max-height: 0;
+	text-decoration: none;
+	color: black;
+
+}
+
+.About.active .accordion {
+	position: absolute;
+	margin-top: 40px;
+	z-index: 10;
+	background: #eee;
+
+	width: 150px;
+	height: 200px;
+	align-items: center;
+	justify-content: center;
+	display: block;
+	border: 1px solid grey;
+	
+}
+.About.active .accordion p{
+	padding: 5px 10px;
+	justify-content: space-between;
+	cursor: pointer;
+}
+a:hover {
+	color: orange;
+
+}
+
+footer{
+	margin-top: 30px;
+	font-size: 14px;
+	color: white;
+	background: rgb(62 62 62);
+	height: 300px;
+	width: 100%
+}
+footer a {
+	text-decoration: underline;
+	color: white;
+}
+.row1 {
+	padding: 10px;
+	position: absolute;
+	width: 25%;
+	height: auto;
+}
+.row2 {
+	padding: 25px;
+	position: absolute;
+	width: 20%;
+	height: auto;
+	margin-left: 30%;
+}
+
+.row3 {
+	padding: 25px;
+	position: absolute;
+	width: 20%
+	height: auto;
+	margin-left: 40%;
+}
+
+.row4 img {
+	width: 25px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.row4 {
+	position: absolute;
+	margin-left: 75%;
+	padding-top: 25px;
+}
+
+.row4 img:hover {
+	background-color: orange;
+}
