@@ -1,5 +1,5 @@
 This is a Course Work for Web Technology module made by student 00013841
-
+github repository: https://github.com/GunnMaxim/WebTechnologyCWBy00013841
 the site is hosted on GitHub  https://gunnmaxim.github.io/WebTechnologyCWBy00013841/ 
 the original site is https://www.homespot.uz/
 
